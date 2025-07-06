@@ -1,0 +1,20 @@
+/* src/styles/gradient.css */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-gradient {
+    background: linear-gradient(135deg, #16a34a, #22c55e, #059669);
+    background-size: 200% 200%;
+    animation: gradientBG 6s ease infinite;
+}
